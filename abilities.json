@@ -1,0 +1,23 @@
+{
+    "Warrior": {
+        "name": "Power Strike",
+        "cost": 3,
+        "effect": "stun",
+        "multiplier": 2,
+        "desc": "2x damage + stun 1 turn"
+    },
+    "Mage": {
+        "name": "Fireball",
+        "cost": 5,
+        "effect": "burn",
+        "multiplier": 2,
+        "desc": "2x damage + burn 3 turns"
+    },
+    "Rogue": {
+        "name": "Backstab",
+        "cost": 4,
+        "effect": "bleed",
+        "multiplier": 1,
+        "desc": "1x damage + bleed 3 turns"
+    }
+}

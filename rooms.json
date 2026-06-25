@@ -1,0 +1,93 @@
+{
+    "Barracks": {
+        "South": "Crystal Observatory",
+        "North": "Flaming Throne Room",
+        "East": "Armory",
+        "West": "Alcove of Spells",
+        "desc": "The burned remains of your quarters. Smoke still rises from the wreckage.",
+        "npc": "Quartermaster"
+    },
+    "Crystal Observatory": {
+        "North": "Barracks",
+        "East": "Royal Gardens",
+        "West": "Sunken Library",
+        "enemy": "Goblin",
+        "desc": "Towering crystals refract starlight into rainbow patterns."
+    },
+    "Armory": {
+        "West": "Barracks",
+        "South": "Blighted Swamp",
+        "enemy": "Orc",
+        "desc": "Weapons and armor line the walls.",
+        "npc": "Blacksmith"
+    },
+    "Royal Gardens": {
+        "West": "Crystal Observatory",
+        "East": "Frostbite Tundra",
+        "enemy": "Orc",
+        "desc": "Once-beautiful gardens now wilted and twisted by dark magic."
+    },
+    "Chamber of Insanity": {
+        "North": "Obsidian Depths",
+        "enemy": "Skeleton",
+        "desc": "Whispers echo from walls covered in maddening runes."
+    },
+    "Goblin Keep": {
+        "East": "Crystal Observatory",
+        "North": "Shadow Cavern",
+        "enemy": "Goblin",
+        "desc": "Crude banners and stolen treasures decorate this filthy stronghold."
+    },
+    "Alcove of Spells": {
+        "North": "Tower of Hatred",
+        "East": "Barracks",
+        "enemy": "Skeleton",
+        "desc": "Ancient tomes float in midair.",
+        "npc": "Enchanter"
+    },
+    "Tower of Hatred": {
+        "South": "Crimson Arena",
+        "desc": "A massive spire of black stone pierces the sky."
+    },
+    "Flaming Throne Room": {
+        "South": "Barracks",
+        "enemy": "Dragon of Legend",
+        "desc": "The throne room burns with dragonfire. The beast awaits."
+    },
+    "Shadow Cavern": {
+        "South": "Goblin Keep",
+        "East": "Blighted Swamp",
+        "enemy": "Shadow Beast",
+        "desc": "Darkness so thick you can feel it pressing against your skin."
+    },
+    "Sunken Library": {
+        "East": "Crystal Observatory",
+        "South": "Crimson Arena",
+        "enemy": "Arcane Wisp",
+        "desc": "Water drips from ceiling-high bookshelves."
+    },
+    "Frostbite Tundra": {
+        "West": "Royal Gardens",
+        "North": "Obsidian Depths",
+        "enemy": "Ice Revenant",
+        "desc": "An endless frozen wasteland."
+    },
+    "Blighted Swamp": {
+        "West": "Shadow Cavern",
+        "North": "Armory",
+        "enemy": "Swamp Horror",
+        "desc": "Bubbling muck and twisted trees."
+    },
+    "Crimson Arena": {
+        "North": "Sunken Library",
+        "South": "Tower of Hatred",
+        "enemy": "Gladiator Wraith",
+        "desc": "Bloodstained sands of an ancient arena."
+    },
+    "Obsidian Depths": {
+        "South": "Frostbite Tundra",
+        "North": "Chamber of Insanity",
+        "enemy": "Lava Golem",
+        "desc": "Rivers of molten rock flow through caves of black glass."
+    }
+}

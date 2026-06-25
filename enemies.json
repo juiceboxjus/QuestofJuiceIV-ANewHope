@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Goblin",
+        "health": 20,
+        "max_health": 20,
+        "attack": 4,
+        "defense": 1,
+        "xp": 10,
+        "gold": 5,
+        "desc": "A scrawny green creature with sharp teeth."
+    },
+    {
+        "name": "Skeleton",
+        "health": 25,
+        "max_health": 25,
+        "attack": 5,
+        "defense": 2,
+        "xp": 10,
+        "gold": 8,
+        "desc": "Animated bones rattling with dark energy."
+    },
+    {
+        "name": "Orc",
+        "health": 35,
+        "max_health": 35,
+        "attack": 7,
+        "defense": 3,
+        "xp": 20,
+        "gold": 15,
+        "desc": "A hulking brute with tusks and a rusty axe."
+    },
+    {
+        "name": "Dragon of Legend",
+        "health": 400,
+        "max_health": 400,
+        "attack": 33,
+        "defense": 22,
+        "xp": 1000,
+        "gold": 500,
+        "desc": "An ancient wyrm wreathed in flame."
+    },
+    {
+        "name": "Shadow Beast",
+        "health": 30,
+        "max_health": 30,
+        "attack": 7,
+        "defense": 3,
+        "xp": 20,
+        "gold": 12,
+        "desc": "A creature made of living darkness."
+    },
+    {
+        "name": "Arcane Wisp",
+        "health": 22,
+        "max_health": 22,
+        "attack": 9,
+        "defense": 2,
+        "xp": 20,
+        "gold": 10,
+        "desc": "A flickering ball of magical energy."
+    },
+    {
+        "name": "Ice Revenant",
+        "health": 35,
+        "max_health": 35,
+        "attack": 8,
+        "defense": 4,
+        "xp": 30,
+        "gold": 18,
+        "desc": "A frozen spirit of a fallen warrior."
+    },
+    {
+        "name": "Swamp Horror",
+        "health": 40,
+        "max_health": 40,
+        "attack": 6,
+        "defense": 5,
+        "xp": 20,
+        "gold": 20,
+        "desc": "A tentacled mass of rotting vegetation."
+    },
+    {
+        "name": "Gladiator Wraith",
+        "health": 38,
+        "max_health": 38,
+        "attack": 10,
+        "defense": 4,
+        "xp": 30,
+        "gold": 25,
+        "desc": "The ghost of a champion fighter."
+    },
+    {
+        "name": "Lava Golem",
+        "health": 50,
+        "max_health": 50,
+        "attack": 9,
+        "defense": 6,
+        "xp": 40,
+        "gold": 30,
+        "desc": "A construct of molten rock and obsidian."
+    }
+]

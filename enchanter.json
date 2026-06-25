@@ -1,0 +1,25 @@
+{
+    "greeting": {
+        "text": "The arcane flows strongly here. I can enchant your very soul!",
+        "choices": {
+            "1": {"text": "What enchantments do you offer?", "next": "shop"},
+            "2": {"text": "Tell me about the arcane arts.", "next": "arcane"},
+            "3": {"text": "I sense dark magic nearby...", "next": "darkness"},
+            "4": {"text": "Perhaps another time.", "next": "exit"}
+        }
+    },
+    "arcane": {
+        "text": "Magic is not just power, it's understanding. Every spell tells a story, every crystal hums with ancient wisdom. Those who wield magic without respect... often meet terrible fates.",
+        "choices": {
+            "1": {"text": "Fascinating. Show me your crystals.", "next": "shop"},
+            "2": {"text": "I'll be careful with magic.", "next": "greeting"}
+        }
+    },
+    "darkness": {
+        "text": "You sense it too? The Chamber of Insanity corrupts everything it touches. Even the wisest mages have been driven mad by its whispers. Be wary if you venture there.",
+        "choices": {
+            "1": {"text": "Thanks for the warning. To business?", "next": "shop"},
+            "2": {"text": "I fear no darkness.", "next": "greeting"}
+        }
+    }
+}

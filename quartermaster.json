@@ -1,0 +1,39 @@
+{
+    "greeting": {
+        "text": "Ho there, soldier. What do you need?",
+        "choices": {
+            "1": {"text": "Show me your wares.", "next": "shop"},
+            "2": {"text": "Any news from the front lines?", "next": "news"},
+            "3": {"text": "Tell me about this place.", "next": "lore"},
+            "4": {"text": "Just passing by.", "next": "exit"}
+        }
+    },
+    "news": {
+        "text": "The dragon's forces grow stronger each day. We lost three scouts near the Frostbite Tundra last week.",
+        "choices": {
+            "1": {"text": "I'll be careful out there.", "next": "greeting"},
+            "2": {"text": "Any advice for fighting them?", "next": "advice"}
+        }
+    },
+    "advice": {
+        "text": "Fire won't work on ice revenants, but they're slow. Time your strikes carefully, and always carry potions!",
+        "choices": {
+            "1": {"text": "Thanks for the tip!", "next": "greeting"},
+            "2": {"text": "Show me your wares instead.", "next": "shop"}
+        }
+    },
+    "lore": {
+        "text": "This was once a proud barracks. Now look at it... The dragon's attack came without warning. We're all that's left of the royal guard.",
+        "choices": {
+            "1": {"text": "I'll avenge your fallen comrades.", "next": "greeting"},
+            "2": {"text": "How did you survive?", "next": "survival"}
+        }
+    },
+    "survival": {
+        "text": "Pure luck. I was in the armory doing inventory when the first blast hit. By the time I got here, it was already over...",
+        "choices": {
+            "1": {"text": "I'm sorry for your loss.", "next": "greeting"},
+            "2": {"text": "Show me what supplies you have.", "next": "shop"}
+        }
+    }
+}

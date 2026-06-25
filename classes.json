@@ -1,0 +1,23 @@
+{
+    "Warrior": {
+        "health": 100,
+        "attack": 12,
+        "defense": 14,
+        "max_mana": 10,
+        "desc": "A durable fighter with strong defense."
+    },
+    "Mage": {
+        "health": 70,
+        "attack": 15,
+        "defense": 8,
+        "max_mana": 40,
+        "desc": "A powerful spellcaster with high mana."
+    },
+    "Rogue": {
+        "health": 80,
+        "attack": 13,
+        "defense": 10,
+        "max_mana": 25,
+        "desc": "A fast striker with balanced stats."
+    }
+}

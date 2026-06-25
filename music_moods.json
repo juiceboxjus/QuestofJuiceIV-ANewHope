@@ -1,0 +1,22 @@
+{
+    "Barracks": "calm_explore",
+    "Crystal Observatory": "calm_explore",
+    "Armory": "calm_explore",
+    "Royal Gardens": "calm_explore",
+    "Alcove of Spells": "calm_explore",
+    "Sunken Library": "calm_explore",
+    "Tower of Hatred": "tense_explore",
+    "Chamber of Insanity": "tense_explore",
+    "Goblin Keep": "tense_explore",
+    "Shadow Cavern": "tense_explore",
+    "Frostbite Tundra": "tense_explore",
+    "Blighted Swamp": "tense_explore",
+    "Crimson Arena": "tense_explore",
+    "Obsidian Depths": "tense_explore",
+    "Flaming Throne Room": "tense_explore",
+    "combat_normal": "combat_normal",
+    "combat_boss": "combat_boss",
+    "shop": "shop_theme",
+    "victory": "victory",
+    "game_over": "game_over"
+}

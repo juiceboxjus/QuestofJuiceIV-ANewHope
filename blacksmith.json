@@ -1,0 +1,17 @@
+{
+    "greeting": {
+        "text": "*CLANG* Ah, an adventurer! My weapons will serve you well!",
+        "choices": {
+            "1": {"text": "Let me see your weapons.", "next": "shop"},
+            "2": {"text": "How's business these days?", "next": "business"},
+            "3": {"text": "I'll be on my way.", "next": "exit"}
+        }
+    },
+    "business": {
+        "text": "War is good for business, they say. But I'd trade all this gold for peace. Half my customers don't come back...",
+        "choices": {
+            "1": {"text": "I understand. Show me your wares.", "next": "shop"},
+            "2": {"text": "Stay strong, smith.", "next": "greeting"}
+        }
+    }
+}

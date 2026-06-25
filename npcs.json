@@ -1,0 +1,29 @@
+{
+    "Quartermaster": {
+        "shop": true,
+        "items": [
+            {"name": "Health Potion", "cost": 15, "effect": "heal", "value": 30, "desc": "Restores 30 HP"},
+            {"name": "Mana Potion", "cost": 10, "effect": "mana", "value": 15, "desc": "Restores 15 MP"},
+            {"name": "Iron Sword", "cost": 50, "effect": "attack", "value": 3, "desc": "Permanently +3 ATK"}
+        ],
+        "dialogue_file": "quartermaster"
+    },
+    "Blacksmith": {
+        "shop": true,
+        "items": [
+            {"name": "Health Potion", "cost": 12, "effect": "heal", "value": 30, "desc": "Restores 30 HP"},
+            {"name": "Steel Shield", "cost": 60, "effect": "defense", "value": 3, "desc": "Permanently +3 DEF"},
+            {"name": "War Hammer", "cost": 80, "effect": "attack", "value": 5, "desc": "Permanently +5 ATK"}
+        ],
+        "dialogue_file": "blacksmith"
+    },
+    "Enchanter": {
+        "shop": true,
+        "items": [
+            {"name": "Mana Potion", "cost": 8, "effect": "mana", "value": 15, "desc": "Restores 15 MP"},
+            {"name": "Mana Crystal", "cost": 100, "effect": "max_mana", "value": 10, "desc": "Permanently +10 Max MP"},
+            {"name": "Spell Scroll", "cost": 75, "effect": "attack", "value": 4, "desc": "Permanently +4 ATK"}
+        ],
+        "dialogue_file": "enchanter"
+    }
+}
